@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ReSell Closet — Онлайн магазин</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <h1>ReSell Closet</h1>
+    <p class="tag">Препродажба на дрехи — ние поръчваме от доставчик, ти получаваш</p>
+  </div>
+</header>
+
+<main class="container">
+  <section id="products">
+    <h2>Продукти</h2>
+    <div id="grid" class="grid"></div>
+  </section>
+
+  <section id="how">
+    <h2>Как работи</h2>
+    <ol>
+      <li>Клиент избира продукт и натиска "Поръчай".</li>
+      <li>Отваря се WhatsApp със съобщение към магазина (ти). Клиентът потвърждава детайлите.</li>
+      <li>Администраторът (ти) прави поръчка към доставчика използвайки supplier link и данните на клиента.</li>
+    </ol>
+    <p class="note">Важно: провери условията на доставчика за препродажба и доставка.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Контакт</h2>
+    <p>WhatsApp: <a id="shopPhone" href="#">+359XXXXXXXXX</a></p>
+    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© <span id="year"></span> ReSell Closet</p>
+  </div>
+</footer>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
